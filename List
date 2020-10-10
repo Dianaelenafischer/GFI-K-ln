@@ -1,0 +1,12 @@
+void main() {
+  
+ List <String> names = ["Mathe GK", "Physik GK", "Chemie GK","Deutsch GK", "Englisch Lk", "Geschichte LK", "Päda GK"];
+
+  for (int i = 0; i < names.length; i++) {
+    print (names[i]);
+  }
+
+  for (String names in names) {
+    print (names);
+  }
+}
