@@ -1,0 +1,15 @@
+void main() {
+  Essen sushi = Essen();
+    sushi.geschmack="fish";
+  sushi.menge= 8;
+  sushi.zeigeWertean();
+}
+class Essen{
+  String geschmack;
+  int menge;
+
+  void zeigeWertean(){
+    print (this.geschmack);
+    print (this.menge);
+  }
+}
